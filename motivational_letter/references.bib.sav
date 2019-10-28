@@ -1,0 +1,38 @@
+% Encoding: UTF-8
+
+@Manual{newspaper1,
+  title = {DNT article},
+  url   = {https://www.dnt.no/artikler/nyheter/13100-tur-pa-fjellet-kan-bli-tur-i-skogen/},
+}
+
+@Manual{newspaper2,
+  title = {Munin.buzz article},
+  url   = {https://munin.buzz/2018/06/bli-med-ut-og-forsk-i-sommer/},
+}
+
+@Manual{newspaper3,
+  title = {Harvest magazine},
+  url   = {https://www.harvestmagazine.no/artikkel/hvis-hardangervidda-blir-hardangerskogen},
+}
+
+@Manual{tv1,
+  title = {TV2 broadcast},
+  url   = {https://www.tv2.no/nyheter/10004842/},
+}
+
+@Manual{tv2,
+  title = {NRK, Monsen minutt for minutt},
+  url   = {https://tv.nrk.no/serie/monsen-minutt-for-minutt/sesong/1/episode/14/avspiller#t=27m16s},
+}
+
+@Manual{newspaper4,
+  title = {Aftenposten},
+  url   = {https://www.aftenposten.no/viten/i/1kG6Le/naa-kan-ogsaa-du-bli-klimaforsker},
+}
+
+@Manual{n,
+  title = {NRK Post},
+  url   = {https://www.nrk.no/innlandet/norges-hoyestvoksende-tre-skaper-bekymring-blant-forskere-1.14653798},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
