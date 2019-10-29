@@ -54,63 +54,15 @@
 % \definecolor{graytext}{HTML}{5D5D5D}
 % \definecolor{lighttext}{HTML}{999999}
 
-% Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
 
-% If you would like to change the social information separator from a pipe (|) to something else
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
-\makeatletter
-\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
-\makeatother
-
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{profile}
-\name{Michal}{Torma}
-\position{Software Engineer}
-% \address{address}
-
-\mobile{9669 4778}
-\email{miso.torma@gmail.com}
-% \homepage{homepage}
-\github{MichalTorma}
-\linkedin{michal-torma}
-% \gitlab{gitlab-id}
-\stackoverflow{5675590}{Amarok}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \extrainfo{extra informations}
 
 %-------------------------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal informations
-% Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[C]
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
-% \makecvfooter
-%   {\today}
-%   {Junhao Dong~~~·~~~Résumé}
-%   {\thepage}
-
-%-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
-%-------------------------------------------------------------------------------
 \input{motivational_letter/about_me.tex}
 
-% Bibliography
-% % \Urlmuskip=0mu plus 1mu\relax
-% \setcounter{biburllcpenalty}{7000}
-% \setcounter{biburlucpenalty}{8000}
-% \printbibliography
+
 \bibliographystyle{IEEEtran}
 \bibliography{motivational_letter/references.bib}
 

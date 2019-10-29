@@ -30,9 +30,26 @@
   url   = {https://www.aftenposten.no/viten/i/1kG6Le/naa-kan-ogsaa-du-bli-klimaforsker},
 }
 
-@Manual{n,
+@Manual{newspaper5,
   title = {NRK Post},
   url   = {https://www.nrk.no/innlandet/norges-hoyestvoksende-tre-skaper-bekymring-blant-forskere-1.14653798},
+}
+
+@article{Torma_Solár_2015,
+  title={Socioeconomics and environmental ramifications of sustainable development in the Poľana region – GIS analysis},
+  volume={24},
+  url={https://om.vuvb.uniza.sk/index.php/OM/article/view/262},
+  number={1},
+  journal={Oecologia Montana},
+  author={Torma, M. and Solár, J.},
+  year={2015},
+  month={Jun.},
+  pages={1-8}
+}
+
+@Manual{msc,
+  title = {The reliability of Citizen-science data collection - analysis of Natur i Endring project},
+  url   = {http://hdl.handle.net/11250/2611987},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
